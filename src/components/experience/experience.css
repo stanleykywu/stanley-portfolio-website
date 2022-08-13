@@ -5,23 +5,22 @@
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
+    background: #003e75;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
+    transition: all 400ms ease;
 }
 
 .experience__container > div:hover {
-    background: var(--color-bg-opaque);
-    border-color: var(--color-primary-variant);
+    background: transparent;
+    border-color: #ffff;
     cursor: default;
 }
 
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
 }
 
 .experience__content {
@@ -37,7 +36,7 @@
 
 .experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: #4db5ff;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

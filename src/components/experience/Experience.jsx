@@ -1,12 +1,13 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill, BsPatchPlus, BsPatchMinus} from 'react-icons/bs'
+import { Container } from '@mui/material'
 
 const Experience = () => {
   return (
-    <section id='experience'>
-      <h5>What do I know</h5>
-      <h2>Computer Knowledge</h2>
+    <Container id='experience' align='center' sx={{ overflow: 'auto' }}>
+      <h5 className="text__light__top">What do I know</h5>
+      <h2 style={{ marginBottom: 40 }}>Computer Knowledge</h2>
 
       <div className='container experience__container'>
         <div className='experience__languages'>
@@ -80,7 +81,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Container>
   )
 }
 
