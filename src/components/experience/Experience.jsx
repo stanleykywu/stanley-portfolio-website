@@ -15,33 +15,33 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon'/>
-              <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
+              <h4 className='over__text'>Python</h4>
+              <small>Experienced</small>
             </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon'/>
-              <h4>Typescript</h4>
-              <small className='text-light'>Experienced</small>
+              <h4 className='over__text'>Typescript</h4>
+              <small>Experienced</small>
             </article>
             <article className='experience_details'>
               <BsPatchPlus className='experience__details-icon'/>
-              <h4>Java</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4 className='over__text'>Java</h4>
+              <small>Intermediate</small>
             </article>
             <article className='experience_details'>
               <BsPatchPlus className='experience__details-icon'/>
-              <h4>SQL</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4 className='over__text'>SQL</h4>
+              <small>Intermediate</small>
             </article>
             <article className='experience_details'>
               <BsPatchPlus className='experience__details-icon'/>
-              <h4>LaTeX</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4 className='over__text'>LaTeX</h4>
+              <small>Intermediate</small>
             </article>
             <article className='experience_details'>
               <BsPatchMinus className='experience__details-icon'/>
-              <h4>C</h4>
-              <small className='text-light'>Novice</small>
+              <h4 className='over__text'>C</h4>
+              <small>Novice</small>
             </article>
           </div>
         </div>
@@ -50,33 +50,33 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon'/>
-              <h4>PyTorch</h4>
-              <small className='text-light'>Experienced</small>
+              <h4 className='over__text'>PyTorch</h4>
+              <small>Experienced</small>
             </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon'/>
-              <h4>Tensorflow</h4>
-              <small className='text-light'>Experienced</small>
+              <h4 className='over__text'>Tensorflow</h4>
+              <small>Experienced</small>
             </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon'/>
-              <h4>Sklearn/SciPy</h4>
-              <small className='text-light'>Experienced</small>
+              <h4 className='over__text'>Sklearn/SciPy</h4>
+              <small>Experienced</small>
             </article>
             <article className='experience_details'>
               <BsPatchPlus  className='experience__details-icon'/>
-              <h4>Snowflake</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4 className='over__text'>Snowflake</h4>
+              <small>Intermediate</small>
             </article>
             <article className='experience_details'>
               <BsPatchPlus  className='experience__details-icon'/>
-              <h4>HuggingFace</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4 className='over__text'>HuggingFace</h4>
+              <small>Intermediate</small>
             </article>
             <article className='experience_details'>
               <BsPatchMinus  className='experience__details-icon'/>
-              <h4>React</h4>
-              <small className='text-light'>Novice</small>
+              <h4 className='over__text'>React</h4>
+              <small>Novice</small>
             </article>
           </div>
         </div>

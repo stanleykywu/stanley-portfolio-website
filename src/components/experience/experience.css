@@ -39,6 +39,11 @@
     color: #4db5ff;
 }
 
+.over__text {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
     .experience__container {

@@ -20,12 +20,12 @@ body {
 }
 
 .text__light__top {
-    /* padding: 100px; */
     margin-top: 100px;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .text__light__only {
+    margin-top: 5px;
     color: rgba(255, 255, 255, 0.6);
 }
 
