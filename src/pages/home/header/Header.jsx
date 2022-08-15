@@ -2,27 +2,8 @@ import React from 'react'
 import HeaderSocials from './HeaderSocials'
 import CTA from './CTA'
 import { Button, Container } from '@mui/material'
-import { makeStyles } from '@mui/styles';
-
-const useStyles = makeStyles({
-  btn: {
-    border: 'none',
-    cursor: 'pointer',
-    color: '#f2f9ff',
-    backgroundSize: '200%',
-    transition: '0.4s',
-    '&:hover': {
-      backgroundPosition: 'right',
-      border: 'none'
-    }
-  },
-   btn1: {
-     backgroundImage: 'linear-gradient(to right bottom, #4f6b9c, #adc3ef)'
-   }
-})
 
 const Header = () => {
-  const classes = useStyles()
   return (
     <Container id='header' align='center'>
       <div>
@@ -37,10 +18,16 @@ const Header = () => {
           sx={{
             marginTop: 5,
             marginBottom: 1,
-            color: '#f1f1e6',
-            background: 'linear-gradient(to right bottom, #003e75, #adc3ef)'
+            color: '#f2f9ff',
+            background: 'linear-gradient(to right bottom, #4f6b9c, #adc3ef)',
+            backgroundSize: '200%',
+            transition: '0.4s',
+            border: 'none',
+            '&:hover': {
+              backgroundPosition: 'right',
+              border: 'none',
+            },
           }}
-          className={ `${classes.btn} ${classes.btn1}` }
         >
           Check Out My Blog!
         </Button>
