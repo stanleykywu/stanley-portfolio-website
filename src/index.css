@@ -29,10 +29,24 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.text__darker {
+    margin-top: 5px;
+    color: black
+}
+
+.white__color {
+    color: #fff
+}
+
+.slight__hover:hover {
+    background-color: #f1f1e6 !important;
+    color: #002647 !important
+}
+
 .white__hover:hover {
-    background-color: transparent;
-    color: white !important
-  }
+    background-color: transparent !important;
+    color: #f1f1e6 !important
+}
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {

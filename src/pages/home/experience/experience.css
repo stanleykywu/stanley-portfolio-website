@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-    background: #003e75;
+    background: #324c70;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,8 +13,8 @@
 }
 
 .experience__container > div:hover {
-    background: transparent;
-    border-color: #ffff;
+    background: #4f6b9c;
+    border-color: #f1f1e6;
     cursor: default;
 }
 
@@ -36,7 +36,7 @@
 
 .experience__details-icon {
     margin-top: 6px;
-    color: #4db5ff;
+    color: #adc3ef;
 }
 
 .over__text {

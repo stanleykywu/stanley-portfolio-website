@@ -19,19 +19,19 @@ const HeaderSocials = () => {
           }}
         >
           <IconButton variant='contained' href='https://linkedin.com/in/stanleykywu' target="_blank">
-            <FiLinkedin style={{color: '#4db5ff'}} className={"white__hover"}/>
+            <FiLinkedin style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained' href='https://github.com/stanleykywu' target="_blank">
-            <VscGithub style={{color: '#4db5ff'}} className={"white__hover"}/>
+            <VscGithub style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained'>
-            <TbMinusVertical style={{color: '#4db5ff'}}/>
+            <TbMinusVertical style={{color: '#adc3ef'}}/>
           </IconButton>
         </Box>
       </Grid>
       <Grid xs={0} md={2}></Grid>
       <Grid xs={4} md={4}>
-        <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: 'auto', height: 'auto' }} style={{background: 'linear-gradient(to right bottom, #4db5ff, transparent)'}}/>
+        <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: 'auto', height: 'auto' }} style={{background: 'linear-gradient(to right bottom, #adc3ef, transparent)'}}/>
       </Grid>
       <Grid xs={0} md={2}></Grid>
       <Grid xs={1} md={1}>
@@ -41,7 +41,7 @@ const HeaderSocials = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            color: '#4db5ff',
+            color: '#adc3ef',
             transform: 'rotate(90deg)'
           }}
           className={"white__hover"}

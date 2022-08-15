@@ -37,7 +37,7 @@ const theme = createTheme({
       default: "#002647"
     },
     text: {
-      primary: "#ffffff"
+      primary: "#fff"
     },
   },
   typography: {

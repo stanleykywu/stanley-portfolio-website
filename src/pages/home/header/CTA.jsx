@@ -14,10 +14,11 @@ const CTA = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            color: '#002647',
-            background: '#ad8ef6'
+            backgroundColor: '#4f6b9c',
+            color: '#f2f9ff',
+            borderColor: 'transparent'
           }}
-          className={"white__hover"}
+          className={"slight__hover"}
         >
           Download Resume
         </Button>
@@ -30,10 +31,10 @@ const CTA = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            backgroundColor: '#003e75',
-            color: '#4db5ff',
+            backgroundColor: '#adc3ef',
+            color: '#002647',
           }}
-          className={"white__hover"}
+          className={"slight__hover"}
         >
           Let's Talk
         </Button>
