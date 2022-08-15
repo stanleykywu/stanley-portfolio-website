@@ -5,7 +5,7 @@ import IconButton from '@mui/material/IconButton'
 import Box from '@mui/material/Box';
 import { TbMinusVertical } from 'react-icons/tb';
 import { Avatar, Button, Grid } from '@mui/material';
-import ME from '../../assets/me.png'
+import ME from '../../../assets/me.png'
 
 const HeaderSocials = () => {
   return (

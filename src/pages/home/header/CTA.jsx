@@ -1,6 +1,6 @@
 import { Button, Grid } from '@mui/material'
 import React from 'react'
-import RESUME from '../../assets/resume.pdf'
+import RESUME from '../../../assets/resume.pdf'
 
 const CTA = () => {
   return (

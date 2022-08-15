@@ -1,5 +1,5 @@
 import React from 'react'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../../assets/me-about.jpg'
 import {TbAward} from 'react-icons/tb'
 import {SiArxiv} from 'react-icons/si'
 import {FiGithub} from 'react-icons/fi'

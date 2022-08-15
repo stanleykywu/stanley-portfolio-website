@@ -1,40 +1,19 @@
 import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Contact from './components/contact/Contact'
-import CssBaseline from "@mui/material/CssBaseline";
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-
-const theme = createTheme({
-  palette: {
-    background: {
-      default: "#002647"
-    },
-    text: {
-      primary: "#ffffff"
-    },
-  },
-  typography: {
-    fontFamily: 'Montserrat',
-    fontWeightLight: 200,
-    fontWeightRegular: 300,
-    fontWeightMedium: 400,
-    fontWeightBold: 500,
-  },
-});
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home/home';
+import Blog from './pages/blog/Blog';
+import Layout from './pages/layout';
 
 function App () {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Contact />
-    </ThemeProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blog />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
