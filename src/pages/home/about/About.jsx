@@ -52,7 +52,7 @@ const About = () => {
                   </Button>
                 </Grid>
               </Grid>
-              Lore Ipsum
+              I’m a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher or engineer and I’m actively involved in adversarial ML research.
             </div>  
           </Grid>
         </Grid>

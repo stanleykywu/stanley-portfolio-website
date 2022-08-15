@@ -14,7 +14,8 @@ const CTA = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            color: '#4db5ff',
+            color: '#002647',
+            background: '#ad8ef6'
           }}
           className={"white__hover"}
         >
