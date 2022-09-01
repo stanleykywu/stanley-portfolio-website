@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <Container id='contact' align='center' sx={{ overflow: 'auto' }}>
       <h5 className="text__light__top">Let's Talk</h5>
-      <h2>Send Me a Message!</h2>
+      <h2>Send Me A Message!</h2>
       <Box style={{
         display:"flex",
         justifyContent:"center",
