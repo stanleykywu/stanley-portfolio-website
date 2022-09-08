@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import { AiOutlineMail } from 'react-icons/ai';
 import { Avatar, Button, Grid } from '@mui/material';
 import ME from '../../../assets/me.png'
+import { BsInstagram } from 'react-icons/bs';
 
 const HeaderSocials = () => {
   return (
@@ -22,7 +23,10 @@ const HeaderSocials = () => {
             <FiLinkedin style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained' href='https://github.com/stanleykywu' target="_blank">
-              <VscGithub style={{color: '#adc3ef'}} className={"white__hover"}/>
+            <VscGithub style={{color: '#adc3ef'}} className={"white__hover"}/>
+          </IconButton>
+          <IconButton variant='contained' href='https://www.instagram.com/stanleykywu/' target="_blank">
+            <BsInstagram style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained'>
             <a href='mailto: stanleykywu@gmail.com'>

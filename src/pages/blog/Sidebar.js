@@ -11,7 +11,7 @@ function Sidebar(props) {
 
   return (
     <Grid item xs={12} md={4}>
-      <Paper elevation={0} sx={{ p: 2, bgcolor: '#003e75' }}>
+      <Paper elevation={0} sx={{ p: 2, bgcolor: '#adc3ef', color: '#002647'}}>
         <Typography variant="h6" gutterBottom>
           {title}
         </Typography>
@@ -30,8 +30,10 @@ function Sidebar(props) {
           sx={{ mb: 0.5 }}
         >
           <Stack direction="row" spacing={1} alignItems="center">
-            <network.icon />
-            <span>{network.name}</span>
+            <Link href={network.link} target="_blank" rel="noreferrer" style={{ color: '#f1f1e6' }} >
+              <network.icon/>
+              <span>{network.name}</span>
+            </Link>
           </Stack>
         </Link>
       ))}
