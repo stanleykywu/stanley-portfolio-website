@@ -103,8 +103,14 @@ const Contact = () => {
               name="user_message"
               variant="outlined"
               placeholder='Write your message here...'
-              style={{ width: 400 , height:100, borderColor:"#909090", borderWidth:1.3, 
-              marginBottom:"5px", color:"black"}}
+              style={{ 
+                width: 400, 
+                height:100, 
+                borderColor:"#909090", 
+                borderWidth:1.3, 
+                marginBottom:"5px", 
+                color:"black"
+            }}
             />
           </div>
           <div align='center'>

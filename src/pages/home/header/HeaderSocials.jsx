@@ -33,7 +33,7 @@ const HeaderSocials = () => {
       </Grid>
       <Grid xs={0} md={2}></Grid>
       <Grid xs={4} md={4}>
-        <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: 'auto', height: 'auto' }} style={{background: 'linear-gradient(to right bottom, #adc3ef, transparent)'}}/>
+        <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: '300px', height: '300px' }} style={{background: 'linear-gradient(to right bottom, #adc3ef, transparent)'}}/>
       </Grid>
       <Grid xs={0} md={2}></Grid>
       <Grid xs={1} md={1}>
