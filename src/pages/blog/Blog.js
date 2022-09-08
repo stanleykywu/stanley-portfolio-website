@@ -28,8 +28,8 @@ const sidebar = {
     'Welcome to my Data Science and Machine Learning Blog. This is where I write reports for interesting DS related projects I do and any machine learning related topics I want to talk about! ',
   social: [
     { name: 'Instagram', icon: Instagram, link: 'https://www.instagram.com/stanleykywu/' },
-    { name: 'Email', icon: Mail, link: 'mailto: stanleykywu@gmail.com' },
     { name: 'LinkedIn', icon: LinkedInIcon, link: 'https://www.linkedin.com/in/stanleykywu/' },
+    { name: 'Email', icon: Mail, link: 'mailto: stanleykywu@gmail.com' },
   ],
 };
 
