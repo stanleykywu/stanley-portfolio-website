@@ -19,7 +19,7 @@ const mainFeaturedPost = {
   imageText: 'main image description',
 };
 
-const posts = [raw('./12-14-2020-stocks.md')];
+const posts = [raw('./10-08-2021-adversarial.md'), raw('./12-14-2020-stocks.md')];
 
 const sidebar = {
   title: 'About',
