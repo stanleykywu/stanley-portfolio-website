@@ -12,14 +12,14 @@ import Footer from './Footer';
 import raw from "raw.macro";
 
 const mainFeaturedPost = {
-  title: 'Stocks, Predictable or Unpredictable?',
+  title: 'Me Myself and Machine Learning Research',
   description:
-    "We explore whether or not simple time series machine learning algorithms are able to predict stock price changes",
+    "We explore everything from stocks to privacy to podcasts!",
   image: 'https://media.istockphoto.com/photos/home-office-desk-table-with-coffee-cup-bouquet-of-spring-flowers-lily-picture-id1310455436?b=1&k=20&m=1310455436&s=170667a&w=0&h=chdh2N8T_Gk7D2-dOcUTT_YjS4B4eKNl98cgSK6nuzg=',
   imageText: 'main image description',
 };
 
-const posts = [raw('./10-08-2021-adversarial.md'), raw('./12-14-2020-stocks.md')];
+const posts = [raw('./12-06-2021-day.md'), raw('./10-08-2021-adversarial.md'), raw('./12-14-2020-stocks.md')];
 
 const sidebar = {
   title: 'About',
