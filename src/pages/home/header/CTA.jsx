@@ -8,15 +8,14 @@ const CTA = () => {
       <Grid xs={1} md={5}/>
       <Grid xs={5} md={2}>
         <Button 
-          variant="outlined" 
+          variant="contained" 
           href={RESUME}
           target="_blank"
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            backgroundColor: '#4f6b9c',
-            color: '#f2f9ff',
-            borderColor: 'transparent'
+            backgroundColor: '#adc3ef',
+            color: '#002647',
           }}
           className={"slight__hover"}
         >
@@ -27,7 +26,7 @@ const CTA = () => {
       <Grid xs={5} md={2}>
         <Button 
           variant="contained" 
-          href="#contact"
+          href={'./blogs'}
           sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -36,7 +35,7 @@ const CTA = () => {
           }}
           className={"slight__hover"}
         >
-          Let's Talk
+          Check Out My Blog!
         </Button>
       </Grid>
       <Grid xs={1} md={5}/>

@@ -14,7 +14,7 @@ const Header = () => {
         <Button 
           size='large'
           variant="outlined" 
-          href={'./blogs'}
+          href="#contact"
           sx={{
             marginTop: 5,
             marginBottom: 1,
@@ -29,7 +29,7 @@ const Header = () => {
             },
           }}
         >
-          Check Out My Blog!
+          Let's Talk
         </Button>
         <HeaderSocials />
       </div>  

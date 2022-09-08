@@ -3,7 +3,7 @@ import {FiLinkedin} from 'react-icons/fi'
 import {VscGithub} from 'react-icons/vsc'
 import IconButton from '@mui/material/IconButton'
 import Box from '@mui/material/Box';
-import { TbMinusVertical } from 'react-icons/tb';
+import { AiOutlineMail } from 'react-icons/ai';
 import { Avatar, Button, Grid } from '@mui/material';
 import ME from '../../../assets/me.png'
 
@@ -22,10 +22,12 @@ const HeaderSocials = () => {
             <FiLinkedin style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained' href='https://github.com/stanleykywu' target="_blank">
-            <VscGithub style={{color: '#adc3ef'}} className={"white__hover"}/>
+              <VscGithub style={{color: '#adc3ef'}} className={"white__hover"}/>
           </IconButton>
           <IconButton variant='contained'>
-            <TbMinusVertical style={{color: '#adc3ef'}}/>
+            <a href='mailto: stanleykywu@gmail.com'>
+              <AiOutlineMail style={{color: '#adc3ef'}} className={"white__hover"}/>
+            </a>
           </IconButton>
         </Box>
       </Grid>
