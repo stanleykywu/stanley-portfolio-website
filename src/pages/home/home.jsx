@@ -4,6 +4,7 @@ import Nav from './nav/Nav'
 import About from './about/About'
 import Experience from './experience/Experience'
 import Contact from './contact/Contact'
+import Research from './research/Research'
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 
@@ -31,6 +32,7 @@ function Home () {
         <CssBaseline />
         <Header />
         <Nav />
+        <Research />
         <About />
         <Experience />
         <Contact />
