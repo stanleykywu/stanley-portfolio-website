@@ -53,7 +53,7 @@ const About = () => {
                 </Grid>
               </Grid>
               <div className='white__color'>
-                I’m a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher or engineer and I’m actively involved in adversarial ML research.
+                I’m a current Computer Science major @ Northeastern University with a concentration in artificial intelligence. I aspire to be a machine learning researcher and I’m actively involved in the intersection of privacy and machine learning research.
               </div>
             </div>  
           </Grid>
