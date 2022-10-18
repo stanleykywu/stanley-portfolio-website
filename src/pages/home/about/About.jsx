@@ -34,13 +34,13 @@ const About = () => {
                   </Button>
                 </Grid>
                 <Grid item xs={0} md={0.5}/>
+                <Grid item xs={5} md={2.5}>
                   <Button variant='contained' href='https://www.linkedin.com/in/stanleykywu/details/experience/' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#adc3ef'}} className='slight__hover'>
                     &nbsp;
                     <TbAward size={30} style={{color: '#002647'}}/>
                     <div style={{ wordWrap: "break-word", color: "#002647" }}>Experience</div>
                     <h5 className="text__darker">2023 New Grad</h5>
                   </Button>
-                <Grid item xs={5} md={2.5}>
                 </Grid>
                 <Grid item xs={0} md={0.5}/>
                 <Grid item xs={5} md={2.5}>
