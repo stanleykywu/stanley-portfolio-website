@@ -13,7 +13,7 @@ const Research = () => {
         <p>
           <strong>How to Combine Membership-Inference Attacks on Multiple Updated Models<br/>
           </strong>Matthew Jagielski, Stanley Wu, Alina Oprea, Jonathan Ullman, Roxana Geambasu<br/>
-          <em>Privacy Enhancing Technologies Symposium (PETs), 2022 (in review)</em><br/>[<a style={{ "color": "#adc3ef" }} target="_blank" without rel="noreferrer" href="https://arxiv.org/abs/2205.06369">link</a>]
+          <em>Privacy Enhancing Technologies Symposium (PETs), 2023 (in review)</em><br/>[<a style={{ "color": "#adc3ef" }} target="_blank" without rel="noreferrer" href="https://arxiv.org/abs/2205.06369">link</a>]
         </p>
       </Container>
     </Container>
