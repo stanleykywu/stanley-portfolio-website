@@ -48,7 +48,7 @@ const Header = () => {
           <h5 className="text__light">Machine Learning Researcher and Data Scientist</h5>
           <CTA />
           <div align="left" style={{ paddingLeft: 100, marginTop: 35 }}>
-            Hi! I'm Stanley, and I'm currently a Data Scientist at Klaviyo and a recent computer science graduate from Northeastern University. My primary academic interest is trustworthy machine learning, which includes ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am working on the intersection of ML and privacy.
+            Hi! I'm Stanley, and I'm currently a Data Scientist at Klaviyo and a recent computer science graduate from Northeastern University. My primary academic interest is trustworthy machine learning, which includes ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) effects privacy.
           </div>
         </Grid>
       </Grid>
