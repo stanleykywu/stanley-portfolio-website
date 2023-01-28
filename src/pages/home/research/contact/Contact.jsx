@@ -58,21 +58,21 @@ const Contact = () => {
   };
 
   return (
-    <Container id='contact' align='center' sx={{ overflow: 'auto' }}>
+    <Container id='contact' align='center' sx={{ overflow: 'auto', marginTop: '-40px' }}>
       <h5 className="text__light__top">Let's Talk</h5>
       <h2>Send Me A Message!</h2>
       <Box style={{
         display:"flex",
         justifyContent:"center",
         textAlign:"center",
-        margin:"40px",
-        marginBottom:"150px"
+        margin:"30px",
+        // marginBottom:"150px"
       }}>
         <form onSubmit={onHandleSubmit} ref={form}>
           <div>
             <StyledTextField
               sx={{
-                width:"400px",
+                width:"350px",
                 height:"5rem",
                 lineHeight: "1.6em",
               }}
@@ -86,7 +86,7 @@ const Contact = () => {
             <StyledTextField 
               sx={{
                 marginBottom:"5px",
-                width: 400, 
+                width:"350px",
                 height:100,
               }}
               type="email"
@@ -104,7 +104,7 @@ const Contact = () => {
               variant="outlined"
               placeholder='Write your message here...'
               style={{ 
-                width: 400, 
+                width:"350px",
                 height:100, 
                 borderColor:"#909090", 
                 borderWidth:1.3, 

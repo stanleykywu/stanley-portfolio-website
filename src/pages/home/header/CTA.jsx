@@ -19,7 +19,7 @@ const CTA = () => {
           }}
           className={"slight__hover"}
         >
-          Download Resume
+          CV/Resume
         </Button>
       </Grid>
       <Grid xs={1} md={1}/>
@@ -35,7 +35,7 @@ const CTA = () => {
           }}
           className={"slight__hover"}
         >
-          Check Out My Blog!
+          My Blog
         </Button>
       </Grid>
       <Grid xs={1} md={5}/>

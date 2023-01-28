@@ -5,7 +5,7 @@ import { Container } from '@mui/material'
 
 const Experience = () => {
   return (
-    <Container id='experience' align='center' sx={{ overflow: 'auto' }}>
+    <Container id='experience' align='center' sx={{ overflow: 'auto', paddingBottom: '100px' }}>
       <h5 className="text__light__top">What do I know</h5>
       <h2 style={{ marginBottom: 40 }}>Computer Knowledge</h2>
 
