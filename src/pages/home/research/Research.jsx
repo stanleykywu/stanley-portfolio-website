@@ -25,7 +25,7 @@ const Research = () => {
               <em>Privacy Enhancing Technologies Symposium (PETs), 2023 (soft accept)</em><br/>
               <Grid container direction='row'>
                 <Grid md={1}>
-                  <Button variant='contained' href='https://arxiv.org/abs/2205.06369' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#adc3ef', maxWidth: '30px', marginTop: '10px' }} className='slight__hover'>
+                  <Button variant='contained' href='https://arxiv.org/abs/2205.06369' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#adc3ef', maxWidth: '30px', marginTop: '10px' }} className='slight__arxivhover'>
                     <SiArxiv size={30} style={{color: '#002647', maxWidth: '40'}}/>
                   </Button>
                 </Grid>

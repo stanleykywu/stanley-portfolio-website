@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 
 const StyledTextField = styled(TextField)({
   "& label": {
-    color: "white",
+    color: "black",
   },
   "& label.Mui-focused": {
     color: "#adc3ef"

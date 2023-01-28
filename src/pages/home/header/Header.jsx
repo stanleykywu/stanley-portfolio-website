@@ -19,7 +19,7 @@ const Header = () => {
     <Container id='home' align='center'>
       <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center" paddingTop={10}> 
         <Grid item md={3}>
-          <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: '300px', height: '300px' }} style={{background: 'linear-gradient(to right bottom, #adc3ef, transparent)'}}/>
+          <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: '300px', height: '300px' }} style={{background: 'linear-gradient(to right bottom, #96C2DB, transparent)'}}/>
           <Box  
             sx={{
               flexDirection: 'row',

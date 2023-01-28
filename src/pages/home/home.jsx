@@ -10,10 +10,10 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 const theme = createTheme({
     palette: {
       background: {
-        default: "#002647"
+        default: "#ffffff"
       },
       text: {
-        primary: "#f1f1e6"
+        primary: "#242526"
       },
     },
     typography: {
