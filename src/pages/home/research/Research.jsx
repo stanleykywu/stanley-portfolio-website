@@ -25,14 +25,14 @@ const Research = () => {
               <em>Privacy Enhancing Technologies Symposium (PETs), 2023 (soft accept)</em><br/>
               <Grid container direction='row'>
                 <Grid md={1}>
-                  <Button variant='contained' href='https://arxiv.org/abs/2205.06369' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#adc3ef', maxWidth: '30px', marginTop: '10px' }} className='slight__arxivhover'>
-                    <SiArxiv size={30} style={{color: '#002647', maxWidth: '40'}}/>
+                  <Button variant='contained' href='https://arxiv.org/abs/2205.06369' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#B31A1B', maxWidth: '30px', marginTop: '10px' }} className='slight__arxivhover'>
+                    <SiArxiv size={30} style={{color: '#fff', maxWidth: '40'}}/>
                   </Button>
                 </Grid>
                 <Grid md={0.5}></Grid>
                 <Grid md={1}>
-                  <Button variant='contained' href='https://github.com/stanleykywu/model-updates' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#adc3ef', maxWidth: '30px', marginTop: '10px' }} className='slight__hover'>
-                    <DiGithubFull size={30} style={{color: '#002647'}}/>
+                  <Button variant='contained' href='https://github.com/stanleykywu/model-updates' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#F4cBB2', maxWidth: '30px', marginTop: '10px' }} className='slight__githubhover'>
+                    <DiGithubFull size={30} style={{color: '#000'}}/>
                   </Button>
                 </Grid>
               </Grid>

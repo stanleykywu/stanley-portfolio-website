@@ -38,8 +38,11 @@ body {
 }
 
 .slight__arxivhover:hover {
-    background-color: #B31A1B !important;
-    color: #f1f1e6 !important
+    background-color: #b31a1aca !important;
+}
+
+.slight__githubhover:hover {
+    background-color: #ffe3d2 !important;
 }
 
 .slight__hover:hover {
@@ -49,7 +52,6 @@ body {
 
 .white__hover:hover {
     background-color: transparent !important;
-    color: #f1f1e6 !important
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

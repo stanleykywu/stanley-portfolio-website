@@ -10,21 +10,21 @@ const StyledTextField = styled(TextField)({
     color: "black",
   },
   "& label.Mui-focused": {
-    color: "#adc3ef"
+    color: "#3a75ed"
   },
   "& .MuiInput-underline:after": {
     borderBottomColor: "#adc3ef"
   },
   "& .MuiOutlinedInput-root": {
     "& fieldset": {
-      borderColor: "#adc3ef"
+      borderColor: "#black"
     },
     "&:hover fieldset": {
-      borderColor: "#adc3ef",
+      borderColor: "#3a75ed",
       borderWidth: 2
     },
     "&.Mui-focused fieldset": {
-      borderColor: "#adc3ef"
+      borderColor: "#3a75ed"
     }
   }
 });
@@ -66,7 +66,6 @@ const Contact = () => {
         justifyContent:"center",
         textAlign:"center",
         margin:"30px",
-        // marginBottom:"150px"
       }}>
         <form onSubmit={onHandleSubmit} ref={form}>
           <div>

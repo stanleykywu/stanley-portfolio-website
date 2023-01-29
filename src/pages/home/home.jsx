@@ -2,7 +2,6 @@ import React from 'react'
 import Header from './header/Header'
 import Nav from './nav/Nav'
 import Experience from './experience/Experience'
-import Contact from './research/contact/Contact'
 import Research from './research/Research'
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from '@mui/material/styles'
