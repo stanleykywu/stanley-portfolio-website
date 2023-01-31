@@ -1,10 +1,10 @@
 import { Button, Grid } from '@mui/material'
 import React from 'react'
-import RESUME from '../../../assets/resume.pdf'
+import RESUME from '../../../../assets/resume.pdf'
 
 const CTA = () => {
   return (
-    <Grid container alignItems="center" paddingTop={1} columns={{ xs: 13, sm: 8, md: 15 }}>
+    <Grid container alignItems="center" paddingTop={1} paddingBottom={2} columns={{ xs: 13, sm: 8, md: 15 }}>
       <Grid xs={1} md={5}/>
       <Grid xs={5} md={2}>
         <Button 

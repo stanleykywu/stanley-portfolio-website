@@ -1,5 +1,5 @@
 import React from 'react'
-import CTA from './CTA'
+import CTA from './cta/CTA'
 import { Container, Grid, Avatar } from '@mui/material'
 import Box from '@mui/material/Box';
 import ME from '../../../assets/me.png'
@@ -17,8 +17,8 @@ const Header = () => {
 
   return (
     <Container id='home' align='center'>
-      <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center" paddingTop={10}> 
-        <Grid item md={3}>
+      <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center" paddingTop={5}> 
+        <Grid item md={4} paddingTop={2}>
           <Avatar alt='Stanley Wu' src={ME} variant='circular' sx={{ width: '300px', height: '300px' }} style={{background: 'linear-gradient(to right bottom, #96C2DB, transparent)'}}/>
           <Box  
             sx={{
@@ -42,15 +42,21 @@ const Header = () => {
               </a>
             </IconButton>
           </Box>
+          <CTA />
         </Grid>
         <Grid md={1}/>
-        <Grid item md={8}>
+        <Grid item md={7} textAlign="left">
           <h1 style={{ marginTop: 0, marginBottom: 10, fontSize: 40 }}>Stanley Wu</h1>
           <h5 className="text__light">Machine Learning Researcher and Data Scientist</h5>
-          <CTA />
-            <div align="left" style={{ marginTop: 35 }}>
-              Hi! I'm Stanley, and I'm currently a Data Scientist at Klaviyo and a recent computer science graduate from Northeastern University. My primary academic interest is trustworthy machine learning, which includes ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) effects privacy.
-            </div>
+          <p align="left" style={{  }}>
+            I am currently a Data Scientist at Klaviyo, and recent graduated from Northeastern University. During my undergraduate years, I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>.
+          </p>
+          <p align="left">
+            My primary academic interests lie in trustworthy machine learning, including ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) effects privacy.
+          </p>
+          <p>
+            I have held several industry positions in the past, mainly in software engineering and data science. In 2021, I was a data science intern at <a href='https://www.proofpoint.com/us' target="_blank" rel="noreferrer">Proofpoint</a> and software engineer co-op at <a href='https://www.morsecorp.com/' target="_blank" rel="noreferrer">MORSE</a>. Previously, I was also a software developer intern at <a href='https://www.harvardpilgrim.org/public/home' target="_blank" rel="noreferrer">Harvard Pilgrim Health Care</a>.
+          </p>  
         </Grid>
       </Grid>
     </Container>
