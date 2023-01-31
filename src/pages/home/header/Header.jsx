@@ -52,7 +52,7 @@ const Header = () => {
             I am currently a Data Scientist at Klaviyo, and recent graduated from Northeastern University. During my undergraduate years, I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>.
           </p>
           <p align="left">
-            My primary academic interests lie in trustworthy machine learning, including ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) effects privacy.
+            My primary academic interests lie in trustworthy machine learning, including ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) affects privacy.
           </p>
           <p>
             I have held several industry positions in the past, mainly in software engineering and data science. In 2021, I was a data science intern at <a href='https://www.proofpoint.com/us' target="_blank" rel="noreferrer">Proofpoint</a> and software engineer co-op at <a href='https://www.morsecorp.com/' target="_blank" rel="noreferrer">MORSE</a>. Previously, I was also a software developer intern at <a href='https://www.harvardpilgrim.org/public/home' target="_blank" rel="noreferrer">Harvard Pilgrim Health Care</a>.
