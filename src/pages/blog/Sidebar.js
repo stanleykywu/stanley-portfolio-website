@@ -30,7 +30,7 @@ function Sidebar(props) {
           sx={{ mb: 0.5 }}
         >
           <Stack direction="row" spacing={1} alignItems="center">
-            <Link href={network.link} target="_blank" rel="noreferrer" style={{ color: '#f1f1e6' }} >
+            <Link href={network.link} target="_blank" rel="noreferrer" style={{ color: '#002647' }} >
               <network.icon style={{ verticalAlign: 'bottom', marginRight: '5px'}}/>
               <span>{network.name}</span>
             </Link>

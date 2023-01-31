@@ -36,10 +36,10 @@ const sidebar = {
 const theme = createTheme({
   palette: {
     background: {
-      default: "#002647"
+      default: "#fff"
     },
     text: {
-      primary: "#fff"
+      primary: "#002647"
     },
   },
   typography: {

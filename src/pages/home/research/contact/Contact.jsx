@@ -58,7 +58,7 @@ const Contact = () => {
   };
 
   return (
-    <Container id='contact' align='center' sx={{ overflow: 'auto', marginTop: '-40px' }}>
+    <Container id='contact' align='center' sx={{ overflow: 'hidden', marginTop: '-40px', maxWidth: '300px' }}>
       <h5 className="text__light__top">Let's Talk</h5>
       <h2>Send Me A Message!</h2>
       <Box style={{
@@ -71,7 +71,7 @@ const Contact = () => {
           <div>
             <StyledTextField
               sx={{
-                width:"350px",
+                width:"280px",
                 height:"5rem",
                 lineHeight: "1.6em",
               }}
@@ -85,7 +85,7 @@ const Contact = () => {
             <StyledTextField 
               sx={{
                 marginBottom:"5px",
-                width:"350px",
+                width:"280px",
                 height:100,
               }}
               type="email"
@@ -103,7 +103,7 @@ const Contact = () => {
               variant="outlined"
               placeholder='Write your message here...'
               style={{ 
-                width:"350px",
+                width:"280px",
                 height:100, 
                 borderColor:"#909090", 
                 borderWidth:1.3, 
