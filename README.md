@@ -1,6 +1,6 @@
 # Personal React Portfolio Website
 
-Hosted using Heroku at [https://www.stanleywu.me/](https://www.stanleywu.me/)
+Hosted using Netlify at [https://www.stanleywu.me/](https://www.stanleywu.me/)
 
 ## Styling
 
