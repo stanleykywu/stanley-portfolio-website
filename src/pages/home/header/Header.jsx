@@ -49,7 +49,7 @@ const Header = () => {
           <h1 style={{ marginTop: 0, marginBottom: 10, fontSize: 40 }}>Stanley Wu</h1>
           <h5 className="text__light">Machine Learning Researcher and Data Scientist</h5>
           <p align="left" style={{  }}>
-            I am currently a Data Scientist at Klaviyo, and recent graduated from Northeastern University. During my undergraduate years, I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>.
+            I am currently a Data Scientist at Klaviyo, and recent graduate from Northeastern University. During my undergraduate years, I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>.
           </p>
           <p align="left">
             My primary academic interests lie in trustworthy machine learning, including ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) affects privacy.
