@@ -16,7 +16,7 @@ const Research = () => {
       <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
         <Grid md={7.5}>
           <div align="left">
-            <h2 style={{ paddingTop: 50, marginBottom: 30 }}>Publications</h2>
+            <h2 style={{ paddingTop: 50, marginBottom: 30 }}>Papers</h2>
           </div>
           <Container align="left">
             <p>

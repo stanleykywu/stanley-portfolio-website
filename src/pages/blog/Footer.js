@@ -9,7 +9,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link to="./../#header">Stanley Wu</Link>
+      <Link to="./../#home">Stanley Wu</Link>
       {' '}
       {new Date().getFullYear()}
       {'.'}

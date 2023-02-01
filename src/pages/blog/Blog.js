@@ -55,7 +55,7 @@ export default function Blog() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container style={{ marginBottom: 40 }} maxWidth="lg">
+      <Container style={{ marginBottom: 40, marginTop: 100 }} maxWidth="lg">
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={5} sx={{ mt: 1 }}>

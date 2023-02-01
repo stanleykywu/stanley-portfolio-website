@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './header/Header'
-import Nav from './nav/Nav'
 import Experience from './experience/Experience'
 import Research from './research/Research'
 import CssBaseline from "@mui/material/CssBaseline";
@@ -29,7 +28,6 @@ function Home () {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
-        <Nav />
         <Research />
         <Experience />
       </ThemeProvider>
