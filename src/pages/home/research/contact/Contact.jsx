@@ -113,7 +113,9 @@ const Contact = () => {
             />
           </div>
           <div align='center'>
-            <Button type='submit' sx={{
+            <Button type='submit' 
+            disableElevation
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               backgroundColor: '#adc3ef',

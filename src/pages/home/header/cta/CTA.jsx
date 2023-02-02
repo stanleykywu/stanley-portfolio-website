@@ -11,6 +11,7 @@ const CTA = () => {
           variant="contained" 
           href={RESUME}
           target="_blank"
+          disableElevation
           sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -27,6 +28,7 @@ const CTA = () => {
         <Button 
           variant="contained" 
           href={'./blogs'}
+          disableElevation
           sx={{
             display: 'flex',
             flexDirection: 'column',

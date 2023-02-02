@@ -6,7 +6,7 @@ import RESUME from '../assets/resume.pdf'
 const Layout = () => {
   return (
     <>
-      <AppBar position="fixed" style={{ background: "#E5EDF1" }}>
+      <AppBar position="fixed" elevation={0} style={{ background: "#E5EDF1" }}>
         <Toolbar>
           <Box display='flex' flexGrow={1}>
               {/* whatever is on the left side */}
