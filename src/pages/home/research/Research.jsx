@@ -22,7 +22,7 @@ const Research = () => {
             <p>
               <strong>How to Combine Membership-Inference Attacks on Multiple Updated Models<br/>
               </strong>Matthew Jagielski, Stanley Wu, Alina Oprea, Jonathan Ullman, Roxana Geambasu<br/>
-              <em>Privacy Enhancing Technologies Symposium (PETs), 2023 (soft accept)</em><br/>
+              <em>Privacy Enhancing Technologies Symposium (PETs), 2023</em><br/>
               <Grid container direction='row'>
                 <Grid md={1}>
                   <Button variant='contained' disableElevation href='https://arxiv.org/abs/2205.06369' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#B31A1B', maxWidth: '30px', marginTop: '10px' }} className='slight__arxivhover'>
