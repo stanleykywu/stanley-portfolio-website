@@ -47,16 +47,16 @@ const Header = () => {
         <Grid md={1}/>
         <Grid item md={7} textAlign="left">
           <h1 style={{ marginTop: 0, marginBottom: 10, fontSize: 40 }}>Stanley Wu</h1>
-          <h5 className="text__light">Machine Learning Researcher and Data Scientist</h5>
           <p align="left" style={{  }}>
-            I am currently a Data Scientist at Klaviyo, and recent graduate from Northeastern University. During that time, I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>.
+            I am a Ph.D. student at the University of Chicago <a href='https://sandlab.cs.uchicago.edu/' target="_blank" rel="noreferrer">SAND Lab</a>, co-advised by <a href='https://people.cs.uchicago.edu/~ravenben/' target="_blank" rel="noreferrer">Ben Zhao</a> and <a href='https://people.cs.uchicago.edu/~htzheng/' target="_blank" rel="noreferrer">Heather Zheng</a>. 
           </p>
           <p align="left">
-            My primary academic interests lie in trustworthy machine learning, including ML privacy, adversarial ML, explainable AI, and machine unlearning. Currently, I am interested in investigating membership inference attacks on fine-tuned models, as well as how explainable AI (i.e. algorithmic recourse) affects privacy.
+            My primary academic interests lie in trustworthy machine learning, and I am currently focused on researching solutions to those affected by unethical AI/ML systems.
           </p>
           <p>
-            I have held several industry positions in the past, mainly in software engineering and data science. In 2021, I was a data science intern at <a href='https://www.proofpoint.com/us' target="_blank" rel="noreferrer">Proofpoint</a> and software engineer co-op at <a href='https://www.morsecorp.com/' target="_blank" rel="noreferrer">MORSE</a>. Previously, I was also a software developer intern at <a href='https://www.harvardpilgrim.org/public/home' target="_blank" rel="noreferrer">Harvard Pilgrim Health Care</a>.
+            I received my bachelors in computer science from Northeastern University, during which I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer">Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer">Jonathan Ullman</a>. I have held several industry positions in the past, mainly in software engineering and data science. Recently, I was a data scientist at <a href='https://www.klaviyo.com/' target="_blank" rel="noreferrer">Klaviyo</a> and <a href='https://www.proofpoint.com/us' target="_blank" rel="noreferrer">Proofpoint</a>.
           </p>  
+          <p><b>Email:</b> stanleywu AT cs.uchicago.edu</p>
         </Grid>
       </Grid>
     </Container>
