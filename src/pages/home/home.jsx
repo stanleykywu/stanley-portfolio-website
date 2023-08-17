@@ -26,6 +26,11 @@ const theme = createTheme({
 function Home () {
     return (
       <ThemeProvider theme={theme}>
+        <link
+          rel="canonical"
+          href="https://stanleywu.me"
+          key="canonical"
+        />
         <CssBaseline />
         <Header />
         <Research />

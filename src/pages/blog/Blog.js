@@ -54,6 +54,11 @@ const theme = createTheme({
 export default function Blog() {
   return (
     <ThemeProvider theme={theme}>
+      <link
+        rel="canonical"
+        href="https://stanleywu.me/blogs"
+        key="canonical"
+      />
       <CssBaseline />
       <Container style={{ marginBottom: 40, marginTop: 100 }} maxWidth="lg">
         <main>
