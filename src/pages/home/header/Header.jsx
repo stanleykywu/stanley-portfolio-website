@@ -1,7 +1,7 @@
 import React from 'react'
 import CTA from './cta/CTA'
 import { Container, Grid, Avatar, ListItem, List } from '@mui/material'
-import ME from '../../../assets/me.png'
+import ME from '../../../assets/me.webp'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -97,7 +97,7 @@ const Header = () => {
             </Grid>
           </Grid> 
           <p align="left" style={{  }}>
-            I am a Ph.D. student at the University of Chicago <a href='https://sandlab.cs.uchicago.edu/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>SAND Lab</a>, co-advised by <a href='https://people.cs.uchicago.edu/~ravenben/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Ben Zhao</a> and <a href='https://people.cs.uchicago.edu/~htzheng/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Heather Zheng</a>. 
+            I am a 1st year Ph.D. student at the University of Chicago <a href='https://sandlab.cs.uchicago.edu/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>SAND Lab</a>, co-advised by <a href='https://people.cs.uchicago.edu/~ravenben/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Ben Zhao</a> and <a href='https://people.cs.uchicago.edu/~htzheng/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Heather Zheng</a>. 
           </p>
           <p align="left">
             My primary academic interests lie in trustworthy machine learning, and I am currently focused on researching solutions to those affected by unethical AI/ML systems.
